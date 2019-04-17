@@ -1,3 +1,3 @@
-export { prenormalize } from './prenormalize';
+export { prenormalize } from './prenormalize'
 
-export { denormalize } from './denormalize';
+export { denormalize } from './denormalize'
