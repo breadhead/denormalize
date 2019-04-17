@@ -1,3 +1,3 @@
-export { markOptions } from './markOptions';
+export { prenormalize } from './prenormalize';
 
 export { denormalize } from './denormalize';

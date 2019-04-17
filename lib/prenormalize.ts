@@ -11,7 +11,7 @@ const mapValuesDeep = (obj: any, callback: (value: any) => any): any =>
     ? mapValues(obj, (value: any) => mapValuesDeep(value, callback))
     : callback(obj);
 
-export const markOptions = (obj: any) =>
+export const prenormalize = (obj: any) =>
   mapValuesDeep(obj, (v: any) => {
     if (isOption(v)) {
       v[OPTION_MARK] = true;
