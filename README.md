@@ -6,7 +6,7 @@ Currently works with:
 - Options [tsoption](https://github.com/bcherny/tsoption)
 - Dates
 
-## How to use?
+## Why?
 
 Imagine yourself trying to send `Dates` or `Options` to the server and receiving it back.
 `denormalize` is aimed to help you with that by preparing your object to normalization and denormalization.
