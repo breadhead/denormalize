@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/breadhead/denormalize.git"
   },
-  "description": "Utility for denormalizing objects",
+  "description": "Utility to save your complex data structures during normalization",
   "author": "Vladimir Golotin <uncleseneca@gmail.com>",
   "license": "MIT",
   "devDependencies": {
