@@ -1,15 +1,15 @@
 language: node_js
 node_js:
-- '8'
-- '10'
+  - '8'
+  - '10'
 cache: yarn
 script: yarn ci
 deploy:
   provider: npm
-  email: igor@kamyshev.me
+  email: uncleseneca@gmail.com
   skip_cleanup: true
   api_key:
-    secure: KcrRgdgizdl5+fYn3WX6l5We2zrN/S77FDokfL+QO32q9jKkZhYYzhD2FED1BvyYu0KTau3ktZHww/DPy3HlmJ41aYbm8o5imDxFKHaodo1PO1CYCYXt77hhIsMx/TyydfpNXhD0O3RkmhL0NCrY+ZkIuGxlWlZ8d49gFxMPXrVK+/XP3VN7+e4uHnJQ4mvYtBDXDckwxNnfTv2MRfKZ2/p0IPCSpi5y11rMISOuinCIEz3FfKd3X6TTKL0BzaRO3tyO5CM8jqX5B4RrE/ZEPGgfOIRbJR5oJPEd1xNQP5FC2Vi9KXGNWknwaTqlDi8xtrwk0DjzZ3EkdTw6dyIeLMzGNTS+baTHn3Vjk22ZMoCdATlyL+8qw64XbtuZsZ0fgYz9XheHl/M7rCxp3W9w2IbehgNkYlK7Q2VIMTi/+4lHwbl7QbIydvXruFNe+eylnN2/6YfLoaa3IpmCtkOa3nnfTLyp1t7qxu0GGSuIh+0AApycJ+k4HXS765pHkaUBaLo0r0El2joQdNSSTkd/2t0yQkRKyZSQmLk8KBFAiBS1vcigvlM2rq5AmV198WocLJjjtcFnsELA54rncj0zsEPTPxym/l30L1ZMH6da2PnJRNoqfJ9DaXHEdx0VW31E0o9zDHK38oEjyAGHHvfpSC6CFWneQ0jkFuM74RokD8A=
+    secure: Lwkn9doCWUjjcTFqdivknUsG7ORrm92cNBNxyZCpuVXeEXHcR9hPqrGrQ0fQRYTzZCQjBMJvCAMfSNc5Ecn3okU4Zrc+mRr76mO0SCxhN3ya+i0gzjwBnC7Nbudfz3EzbzXPGLyL0PQmYzmXzB5kjfntLQZvNf8EC6Yfy1Esd4XfnlayDCMd0cDDaxyfGxIE+xShJ7Il3+LqVm/9KtVOb08wD61ABpiTR7JeAyWYR2LfGdgEJ59eTE3nCm53pbRlMw2PawHSirevQEAO1XgpdW4Lumzy9aPAAHQ5odfWrRchXWVT3Ql9U9pVsz96+/3FQMRgENmQPi3bwIGQ+Aga07npbNJzH+3EOnqzkq1dp1oCWkTRe8Wb3SN/NMUKq7SAy+TQOgXuX9RNssIyJzyu05x04worr8UgmPuUE1Y7msAVLnAZqqEgALcOyaMk8jkyliCgLmoD162ZxHiTI5obU81Kxvu/NY+CqB6G+lfFo6Zbyb+Mz3SQv4lE9M0rE0a+M0G5nMZb6gIexQtkVna37JWJEKQlz3xzxHJJFYddPI84WFvrnNcgIH3lRQbx++UDE2T62qN5TexhhQ983cj4pIDpQ6TBLfCq5Ws7IEFHwovzPSpEi+y5f1el9s7dGt3B6U5Ifm35z3wyAXQ6cdnePjkrvhKmYi4hvn+kOVMkf1Q=
   on:
     tags: true
-    repo: igorkamyshev/pick-by-lang
+    repo: breadhead/denormalize
