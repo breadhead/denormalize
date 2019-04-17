@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.0.0](https://github.com/breadhead/denormalize/compare/v1.1.0...v2.0.0) (2019-04-17)
+
+
+### Code Refactoring
+
+* rename markOptions to prenormalize ([6cbe7a5](https://github.com/breadhead/denormalize/commit/6cbe7a5))
+
+
+### BREAKING CHANGES
+
+* rename markOptions to prenormalize
+
+
+
 # 1.1.0 (2019-04-17)
 
 
