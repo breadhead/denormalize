@@ -1,8 +1,4 @@
-const isDate = (value: string) => {
-  const date = new Date(value)
-
-  return !isNaN(date.valueOf())
-}
+const DATE_REGEX = /(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})(.*)/
 
 export const tapDate = (value: string): Date | string =>
-  isDate(value) ? new Date(value) : value
+  DATE_REGEX.test(value) ? new Date(value) : value

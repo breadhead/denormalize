@@ -28,7 +28,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn soda lint-staged",
+      "pre-commit": "yarn soda lint-staged && yarn test",
       "commit-msg": "yarn soda commitlint"
     }
   },
@@ -40,6 +40,6 @@
     "s": "yarn soda",
     "build": "tsc",
     "prepare": "yarn build",
-    "ci": "yarn s lint"
+    "ci": "yarn s lint && yarn test"
   }
 }
